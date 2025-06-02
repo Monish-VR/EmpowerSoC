@@ -1,5 +1,5 @@
 .lib cmos_models
-.MODEL nmos NMOS (LEVEL   = 49 hdif = 0.25e-6 acm = 3 
+.MODEL nmos NMOS (LEVEL   = 49 bsim3 = 0.25e-6 acm = 3 
 +VERSION = 3.1            TNOM    = 27             TOX     = 4.2E-9
 +XJ      = 1E-7           NCH     = 2.3549E17      VTH0    = 0.3710619
 +K1      = 0.5940793      K2      = 2.070131E-3    K3      = 1E-3
@@ -36,7 +36,7 @@
 +PU0     = 37.4749547     PUA     = 1.762367E-10   PUB     = 9.411793E-25
 +PVSAT   = 2E3            PETA0   = -1E-4          PKETA   = -1.356792E-3    )
 *
-.MODEL pmos PMOS (LEVEL   = 49 hdif = 0.25e-6 acm =3 
+.MODEL pmos PMOS (LEVEL   = 49 bsim3 = 0.25e-6 acm =3 
 +VERSION = 3.1            TNOM    = 27             TOX     = 4.2E-9
 +XJ      = 1E-7           NCH     = 4.1589E17      VTH0    = -0.4220357
 +K1      = 0.5813738      K2      = 0.0303955      K3      = 0
